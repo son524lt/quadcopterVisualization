@@ -11,7 +11,7 @@ function getData() {
         console.log(data.yaw);
       }
     };
-    xhttp.open("GET", "/getData", true);
+    xhttp.open("GET", hostname + "/getData", true);
     xhttp.send();
   }
 
