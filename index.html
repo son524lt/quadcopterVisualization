@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Quadcopter status</title>
+  <link rel="stylesheet" href="./master.css">
+</head>
+<body>
+    <div class="content">
+        <h1>MPU6050</h1>
+        <table>
+            <tr>
+                <th><h2>Params</h2></th>
+                <th><h2>Value</h2></th>
+            </tr>
+            <tr>
+                <td><h2>Roll</h2></td>
+                <td id="roll">NaN</td>
+            </tr>
+            <tr>
+                <td><h2>Pitch</h2></td>
+                <td id="pitch">NaN</td>
+            </tr>
+            <tr>
+                <td><h2>Yaw</h2></td>
+                <td id="yaw">NaN</td>
+            </tr>
+        </table>
+    </div>
+    <div class="content">
+        <h1>Motor speed</h1>
+        <table>
+            <tr>
+                <th>Motor</th>
+                <th>Left</th>
+                <th>Right</th>
+            </tr>
+            <tr>
+                <th>Front</th>
+                <td id="FL">NaN</td>
+                <td id="FR">NaN</td>
+            </tr>
+            <tr>
+                <th>Back</th>
+                <td id="BL">NaN</td>
+                <td id="BR">NaN</td>
+            </tr>
+        </table>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
